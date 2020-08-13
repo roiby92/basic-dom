@@ -4,21 +4,42 @@
 <head>
     <title>DOM</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <div id="playing-field" class="centered">
+
+    <!-- <input type="text" id="input" placeholder="Please enter your name :" />
+    <input type="submit" id='submit' > -->
+<form action="" id="form">
+    <input type="text" id="userName" placeholder="name">
+    <input type="date" id="bDay" placeholder="date">
+    <input type="number" id="salary" placeholder="salary">
+    <input type="text" id="phone" placeholder="phone">
+</form>
+<input type="submit" id="submit" onclick="validate()">
+
+    <div id="container" >
+
+
+        <!-- <div id="playing-field" class="centered">
             <div id="block" class="centered"></div>
         </div>
         <div id="arrows" class="centered">
-            <div id="up" class="arrow">&uarr;</div>
+            <div id="up" class="arrow" >&uarr;</div>
             <div id="left" class="arrow">&larr;</div>
             <div id="right" class="arrow">&rarr;</div>
-            <div id="down" class="arrow">&darr;</div>
+            <div id="down" class="arrow">&darr;</div> -->
         </div>
+
     </div>
+    <!-- <div id="box" onclick="clickColor()">Hover over me!</div>
+
+    <ol onclick="addListItem()" id="list">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol> -->
+    <script src="exDom.js"></script>
 </body>
 
 </html>
